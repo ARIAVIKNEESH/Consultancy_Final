@@ -1,0 +1,79 @@
+/* General Page Styling */
+.app-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4e73df;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #1cc88a;
+}
+
+/* Page Styling */
+.page {
+  padding: 40px 20px;
+}
+
+/* Button Styling */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn-electrical, .btn-production {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 18px;
+  color: #fff;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.btn-electrical:hover, .btn-production:hover {
+  background: #224abe;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .btn-electrical, .btn-production {
+    width: 100%;
+    text-align: center;
+  }
+}

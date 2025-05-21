@@ -1,0 +1,50 @@
+.summary-container {
+  padding: 2rem;
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+.summary-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.summary-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.summary-filters input,
+.summary-filters select,
+.summary-filters button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.summary-table {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.summary-table th,
+.summary-table td {
+  padding: 0.75rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.summary-table th {
+  background-color: #222;
+  color: white;
+}
+
+.summary-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

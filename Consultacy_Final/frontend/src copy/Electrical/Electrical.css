@@ -1,0 +1,25 @@
+.container-fluid {
+  background: #f4f4f4;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+
+.btn-primary {
+  background: #007bff;
+  border: none;
+}
+.btn-primary:hover {
+  background: #0056b3;
+}
+
+.table {
+  text-align: center;
+}
+.table th, .table td {
+  vertical-align: middle;
+}
